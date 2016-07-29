@@ -1,0 +1,38 @@
+<!doctype html>
+    <html>
+
+        <head>
+            <title>Hot Uploader</title>
+
+            // script tags that need to load first, like jQuery and other CDN packages
+            <script src="https://code.jquery.com/jquery.js"></script>
+
+            // style sheet, reset from other library dependencies, favicon
+            <link rel="stylesheet" href="../static/reset.css">
+            <link rel="stylesheet" href="../static/base.css">
+            <link rel="shortcut icon" href="../static/favicon.ico">
+
+        </head>
+
+
+
+        <body>
+
+            <div id="uploader">
+
+                <form id='upload_form' method="POST">
+                    <label class='upload'>
+                        <i class='picture icon big'></i>
+                        Upload a File:
+                        <input type='file' id='input-upload' class='hidden' name='file' >
+                    </label>
+                </form>
+
+            </div>
+
+
+            // script tags that you don't want to hold up page load, like JS
+            <script src="../static/homepage.js"></script>
+        </body>
+
+    </html>

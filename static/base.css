@@ -1,0 +1,10 @@
+body {
+    margin: 5px;
+}
+
+#upload #display {
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+}
